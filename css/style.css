@@ -4,7 +4,7 @@ html, body {
 	font-family: "Helvetica Neue", Helvetica, sans-serif;
 	color: #444;   
 	-webkit-font-smoothing: antialiased;    
-	background: #f0f0f0;
+	background: #fff;
 }
 
 #container {
@@ -62,7 +62,7 @@ input[type=password] {
 #lower{
 	background: #ecf2f5;
 	width: 100%;
-	height: 69px;
+	height: 58px;
 	margin-top: 20px;
 }
 input[type=checkbox]{
@@ -81,14 +81,13 @@ input[type=submit] {
     height: 30px;
 }
 
-#firstRowCommands{
-    width: 100%;
-    height: 140px;
-    margin-top: 200px;
-    background: #fff;
-    border-radius: 3px;
+
+#signIn{
+    position: absolute;
+    width: 200px;
+    height:200px;
     border: 1px solid #ccc;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+    margin-left: 80%;
 }
 
 #secondRowCommands{
