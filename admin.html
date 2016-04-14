@@ -1,11 +1,36 @@
 <!DOCTYPE html>
 <html lang="eng">
-
 <html>
   <head>
-  	     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  	  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  	  <link href="css/bootstrap.min" rel="stylesheet" media="screen">
+  	  <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+  	  <link href="css/bootstrap-responsive.min" rel="stylesheet" media="screen">
+  	  <link href="css/bootstrap-responsive" rel="stylesheet" media="screen">
+  	  <link href="css/admin.css" rel="stylesheet" media="screen">
      <title>Admin Console</title>
   </head>
-   <body>
-   </body>
+  <div id="wrap">
+  	<div id="banner"></div>
+  </div>
+   	<body>
+   	  <div id="createUser">
+   	  	  <h3 id="createUserHeader">Create a User</h3>
+   	    <div id="usernameCreateUser" class="input-group input-group-sm">
+ 		    <input type="text" class="form-control" placeholder="Username" aria-describedby="sizing-addon3">
+		</div>
+		<div id="passwordCreateUser" class="input-group input-group-sm">
+ 		    <input type="password" class="form-control" placeholder="Password" aria-describedby="sizing-addon3">
+		</div>
+		<div id="rpasswordCreateUser" class="input-group input-group-sm">
+ 		    <input type="password" class="form-control" placeholder="Repeat Password" aria-describedby="sizing-addon3" id="resetcreateUser">
+		</div>
+			<form id="selectorForm1">
+				 Admin: <input type="radio" name="radio1">
+  				 Org: <input type="radio" name="radio1">
+  				 Client: <input type="radio" name="radio1">
+  			</form>
+        <a class="btn btn-success btn-lg" type="submit" href="#" role="button" id="idCreateUserSubmit">Submit Form</a>
+	  </div>
+   	</body>
 </html>

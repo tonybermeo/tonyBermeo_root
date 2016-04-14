@@ -1,0 +1,69 @@
+#wrap{
+	background-color: blue;
+}
+
+#banner{
+width: 100%;
+height:45px;
+background-color: #181818;
+}
+
+#createUser{
+	height: 295px;
+	width: 315px;
+	border:2px solid silver;
+	border-style: outset;
+	border-radius: 20px;
+	position: relative;
+	top: 180px;
+	bottom:10px;
+	left:950px;
+	right:10px;
+}
+
+#usernameCreateUser{
+	position: relative;
+	top: 35px;
+	bottom: 70px;
+	left: 47px;
+	right: 70px;
+}
+
+#passwordCreateUser{
+	position: relative;
+	top: 35px;
+	bottom: 70px;
+	left: 47px;
+	right: 70px;
+}
+
+#rpasswordCreateUser{
+	position: relative;
+	top: 35px;
+	bottom: 70px;
+	left: 47px;
+	right: 70px;
+}
+
+#selectorForm1{
+	width: 62%;
+	position: relative;
+	top: 45px;
+	bottom: 0px;
+	left: 70px;
+	right: 0px;
+}
+
+#createUserHeader{
+	height: 30px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	position: relative;
+	top:15px ;
+	left: 72px;
+}
+
+#idCreateUserSubmit{
+	position: relative;
+	top: 40px;
+	left: 99px;
+}
