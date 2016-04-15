@@ -4,8 +4,8 @@
 
 #banner{
 width: 100%;
-height:45px;
-background-color: #181818;
+height:60px;
+background-color: silver;
 }
 
 #createUser{
@@ -14,10 +14,10 @@ background-color: #181818;
 	border:2px solid silver;
 	border-style: outset;
 	border-radius: 20px;
-	position: relative;
-	top: 180px;
+	position: absolute;
+	top: 230px;
 	bottom:10px;
-	left:950px;
+	left:920px;
 	right:10px;
 }
 
@@ -67,3 +67,107 @@ background-color: #181818;
 	top: 40px;
 	left: 99px;
 }
+
+#topRowActions{
+width: 200px;
+height: 100%;
+}
+
+#userdiv{
+	position: relative;
+	top: 210px;
+	left: 125px;
+	width: 125px;
+}
+
+#userimage{
+	position: relative;
+	left: 16px;
+}
+
+#orgDiv{
+	position: relative;
+	top: 107px;
+	left: 290px;
+	width: 125px;
+}
+
+#orgimage{
+	position: relative;
+	left: 25px;
+}
+
+#departmentDiv{
+	position: relative;
+	top: 4px;
+	left: 485px;
+	width: 125px;
+}
+
+#departmentimage{
+	position: relative;
+	left: 25px;
+}
+
+#folderDiv{
+	position: relative;
+	top: -98px;
+	left: 675px;
+	width: 125px;
+}
+
+#folderimage{
+	position: relative;
+	left: 12px;
+}
+
+#workflowDiv{
+	position: relative;
+	top: -92px;
+	left: 115px;
+	width: 125px;
+}
+
+#workflowimage{
+	position: relative;
+	left: 25px;
+}
+
+#lockDiv{
+	position: relative;
+	top: -195px;
+	left: 266px;
+	width: 170px;
+}
+
+#lockimage{
+	position: relative;
+	left: 48px;
+}
+
+#reportDiv{
+	position: relative;
+	top: -299px;
+	left: 507px;
+	width: 170px;
+}
+
+#reportimage{
+	position: relative;
+	left: 4px;
+}
+
+#emailDiv{
+	position: relative;
+	top: -403px;
+	left: 673px;
+	width: 170px;
+}
+
+#emailimage{
+	position: relative;
+	left: 9px;
+}
+
+
+
