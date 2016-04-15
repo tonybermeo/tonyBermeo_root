@@ -20,7 +20,7 @@
 
 li {
 	float: left;
-	background-color: gray;
+	background-color: #6892B0;
 	padding: 2.5em 4em 1.65em 3em;
 	border-radius: 5px;
 	font-weight: bold;
@@ -32,7 +32,7 @@ li a{
 }
 
 li:hover{
-	background-color: #6892B0;
+	background-color: darkgray;
 }
 
 #thickBlackLine{
