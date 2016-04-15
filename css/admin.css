@@ -1,22 +1,39 @@
 #wrap{
-	background-color: blue;
+	position: absolute;
+	height: 100vh;
+}
+
+#nav-wrapper{
+	position: absolute;
+}
+
+#nav{
+	list-style: none;
+	l
+}
+
+#thickBlackLine{
+	position: relative;
+	border:10px silver solid;
+	top: 80px;
+	border-style: inset;
 }
 
 #banner{
 width: 100%;
-background-color: silver;
+background-color: LightCyan;
 }
 
 #createUser{
 	height: 295px;
 	width: 315px;
-	border:2px solid silver;
+	border:2px solid LightCyan;
 	border-style: outset;
 	border-radius: 20px;
 	position: absolute;
 	top: 158px;
 	bottom:10px;
-	left:920px;
+	left:820px;
 	right:10px;
 }
 
@@ -72,16 +89,31 @@ width: 200px;
 height: 100%;
 }
 
+#userdiv:hover{
+background-color: LightCyan;
+}
+
 #userdiv{
 	position: relative;
-	top: 210px;
+	top: 211px;
 	left: 125px;
 	width: 125px;
 }
 
 #userimage{
 	position: relative;
-	left: 16px;
+	left: 30px;
+	top: 3px;
+}
+
+#addUserHeader{
+position: relative;
+left: 12px;
+top: 3px;
+}
+
+#orgDiv:hover{
+background-color: LightCyan;
 }
 
 #orgDiv{
@@ -93,87 +125,149 @@ height: 100%;
 
 #orgimage{
 	position: relative;
-	left: 25px;
+	left: 30px;
+	top: 3px;
+}
+
+#orgHeader{
+	position: relative;
+	left: 2px;
+}
+
+#departmentDiv:hover{
+background-color: LightCyan;
 }
 
 #departmentDiv{
 	position: relative;
-	top: 4px;
-	left: 485px;
+	top: 2px;
+	left: 455px;
 	width: 125px;
 }
 
 #departmentimage{
 	position: relative;
-	left: 25px;
+	left: 30px;
+}
+
+#departmentHeader{
+	position: relative;
+	left: 6px;
+}
+
+#folderDiv:hover{
+background-color: LightCyan;
 }
 
 #folderDiv{
 	position: relative;
-	top: -98px;
-	left: 675px;
+	top: -103px;
+	left: 620px;
 	width: 125px;
 }
 
 #folderimage{
 	position: relative;
-	left: 12px;
+	left: 32px;
+}
+
+#folderHeader{
+	position: relative;
+	left: 22px;
+}
+
+#workflowDiv:hover{
+background-color: LightCyan;
 }
 
 #workflowDiv{
 	position: relative;
 	top: -92px;
-	left: 115px;
+	left: 125px;
 	width: 125px;
 }
 
 #workflowimage{
 	position: relative;
-	left: 25px;
+	left: 30px;
+}
+
+#workflowHeader{
+position: relative;
+left: 5px;
+}
+
+#lockDiv:hover{
+background-color: LightCyan;
 }
 
 #lockDiv{
 	position: relative;
-	top: -195px;
-	left: 266px;
-	width: 170px;
-	height: 0px;
+	top: -197px;
+	left: 290px;
+	width: 125px;
 }
 
 #lockimage{
 	position: relative;
-	left: 48px;
+	left: 30px;
+	top: 5px;
+}
+
+#lockHeader{
+	position: relative;
+	left: 13px;
+}
+
+#reportDiv:hover{
+background-color: LightCyan;
 }
 
 #reportDiv{
 	position: relative;
-	top: -195px;
-	left: 507px;
-	width: 170px;
-	height: 0px;
+	top: -301px;
+	left: 455px;
+	width: 125px;
 }
 
 #reportimage{
 	position: relative;
-	left: 4px;
+	top: 5px;
+	left: 30px;
+}
+
+#reportHeader{
+	position: relative;
+	left: 28px;
+}
+
+#emailDiv:hover{
+background-color: LightCyan;
 }
 
 #emailDiv{
 	position: relative;
-	top: -194px;
-	left: 665px;
-	width: 100px;
+	top: -406px;
+	left: 620px;
+	width: 125px;
 
 }
 
 #emailimage{
 	position: relative;
-	left: 17px;
+	left: 31px;
 }
 
 #emailHeader{
 	position: relative;
-	left: 8px;
+	left: 23px;
+}
+
+#footer{
+	position: relative;
+	width: 230px;
+	top: -300px;
+	left: 500px;
 }
 
 
