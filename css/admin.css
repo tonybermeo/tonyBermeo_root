@@ -138,6 +138,7 @@ height: 100%;
 	top: -195px;
 	left: 266px;
 	width: 170px;
+	height: 0px;
 }
 
 #lockimage{
@@ -147,7 +148,7 @@ height: 100%;
 
 #reportDiv{
 	position: relative;
-	top: -299px;
+	top: -195px;
 	left: 507px;
 	width: 170px;
 	height: 0px;
@@ -160,7 +161,7 @@ height: 100%;
 
 #emailDiv{
 	position: relative;
-	top: -298px;
+	top: -195px;
 	left: 673px;
 	width: 170px;
 	height: 0px;
