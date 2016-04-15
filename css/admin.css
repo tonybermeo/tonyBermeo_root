@@ -150,6 +150,7 @@ height: 100%;
 	top: -299px;
 	left: 507px;
 	width: 170px;
+	height: 0px;
 }
 
 #reportimage{
@@ -159,9 +160,10 @@ height: 100%;
 
 #emailDiv{
 	position: relative;
-	top: -403px;
+	top: -298px;
 	left: 673px;
 	width: 170px;
+	height: 0px;
 }
 
 #emailimage{
