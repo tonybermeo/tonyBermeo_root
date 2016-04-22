@@ -1,81 +1,75 @@
 <!DOCTYPE html>
-<html lang="eng">
 <html>
-  <head>
-  	  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-  	  <link href="css/bootstrap.min" rel="stylesheet" media="screen">
-  	  <link href="css/bootstrap.css" rel="stylesheet" media="screen">
-  	  <link href="css/bootstrap-responsive.min" rel="stylesheet" media="screen">
-  	  <link href="css/bootstrap-responsive" rel="stylesheet" media="screen">
-  	  <link href="css/admin.css" rel="stylesheet" media="screen">
-     <title>Admin Console</title>
-  </head>
-  <div id="wrap">
-  </div>
-   	<body>
-   		<div id="nav-wrapper">
-  			<ul id="nav">
-    			<li><a>Admin</a></li>
-    			<li><a>Vendor</a></li>
-    			<li><a>Help</a></li>
-  			</ul>
-		</div>
-   		<div id="thickBlackLine">
-   		</div>
-   	  <div id="topRowActions">
-   		<div id="userdiv">
-   			<img id="userimage" src="images/user.png" />
-   			<h5 id="addUserHeader">Manage Users</h5>
-   		</div>
-   		<div id="orgDiv">
-   			<img id="orgimage" src="images/city.png" />
-   			<h5 id="orgHeader">Add Organization</h5>
-   		</div>
-   		<div id="departmentDiv">
-   			<img id="departmentimage" src="images/department.png" />
-   			<h5 id="departmentHeader">Add Department</h5>
-   		</div>
-   		<div id="folderDiv">
-   			<img id="folderimage" src="images/folder.png" />
-   			<h5 id="folderHeader">Add Project</h5>
-   		</div>
-   		<div id="workflowDiv">
-   			<img id="workflowimage" src="images/workflow.png" />
-   			<h5 id="workflowHeader">Create Workflow</h5>
-   		</div>
-   		<div id="lockDiv">
-   			<img id="lockimage" src="images/lock.png" />
-   			<h5 id="lockHeader">Security Roles</h5>
-   		</div>
-   		<div id="reportDiv">
-   			<img id="reportimage" src="images/report.png" />
-   			<h5 id="reportHeader">Reporting</h5>
-   		</div>
-   			<div id="emailDiv">
-   			<img id="emailimage" src="images/email.png" />
-   			<h5 id="emailHeader">Mass E-mail</h5>
-   		</div>
-   	  </div>
-   	  <div id="createUser">
-   	  	  <h3 id="createUserHeader">Create a User</h3>
-   	    <div id="usernameCreateUser" class="input-group input-group-sm">
- 		    <input type="text" class="form-control" placeholder="Username" aria-describedby="sizing-addon3">
-		</div>
-		<div id="passwordCreateUser" class="input-group input-group-sm">
- 		    <input type="password" class="form-control" placeholder="Password" aria-describedby="sizing-addon3">
-		</div>
-		<div id="rpasswordCreateUser" class="input-group input-group-sm">
- 		    <input type="password" class="form-control" placeholder="Re-Enter Password" aria-describedby="sizing-addon3" id="resetcreateUser">
-		</div>
-			<form id="selectorForm1">
-				 Admin: <input type="radio" name="radio1">
-  				 Org: <input type="radio" name="radio1">
-  				 Client: <input type="radio" name="radio1">
-  			</form>
-        <a class="btn btn-default btn-lg" type="submit" href="#" role="button" id="idCreateUserSubmit">Submit Form</a>
-	  </div>
-   	</body>
-   	<footer id="footer">
-   		WorldServer all right reserved &copy;
-   	</footer>
+<head>
+	
+	<link rel="stylesheet" type="text/css" href="css/style2.css">
+	<title>Admin</title>
+</head>
+<body>
+	<header>
+		<div class="smalltopbanner"></div>
+			<div class="companyname"><span>anna technologies</span></div>
+	</header>
+
+<div class="createUser">
+	<h3>Create a User</h3>
+	<div id="usernameCreateUser" class="input-group input-group-sm">
+      <input type="text" class="form-control" placeholder="Username" aria-describedby="sizing-addon3">
+    </div>
+    <div id="passwordCreateUser" class="input-group input-group-sm">
+ 	  <input type="text" class="form-control" placeholder="Password" aria-describedby="sizing-addon3">
+ 	</div>
+ 	 <div id="passwordReenterUser" class="input-group input-group-sm">
+ 	  <input type="password" class="form-control" placeholder="Re-enter Password" aria-describedby="sizing-addon3">
+ 	</div>
+ 	<form id="selectorForm1">
+	 Admin: <input type="radio" name="radio1">
+  	 Org: <input type="radio" name="radio1">
+  	 Client: <input type="radio" name="radio1">
+  	</form>
+  	<a class="btn" type="submit" href="#" role="button" id="idCreateUserSubmit">Submit Form</a>
+</div>
+
+<div class="actionButtons">
+	<div class="actionbtn" id="action1">
+		<img src="images/user.png"/>
+		<span class="spansForAction">Manage User</span>
+	</div>
+
+	<div class="actionbtn" id="action2">
+		<img src="images/workflow.png"/>
+		<span>Add Workflow</span>
+	</div>
+
+	<div class="actionbtn" id="action3">
+		<img src="images/city.png">
+		<span class="spansForAction">Organization</span>
+	</div>
+
+	<div class="actionbtn" id="action4">
+		<img src="images/folder.png">
+		<span class="spansForAction">Add Project</span>
+	</div>
+
+	<div class="actionbtn" id="action5">
+		<img src="images/department.png">
+		<span class="spansForAction">Department</span>
+	</div>
+
+	<div class="actionbtn" id="action6">
+		<img src="images/lock.png">
+		<span>Security Roles</span>
+	</div>
+
+	<div class="actionbtn" id="action7">
+		<img src="images/report.png">
+		<span class="spansForAction">Data Reports</span>
+	</div>
+
+	<div class="actionbtn" id="action8">
+		<img src="images/email.png">
+		<span class="spansForAction">Group E-mail</span>
+	</div>
+</div>
+</body>
 </html>

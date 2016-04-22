@@ -1,0 +1,227 @@
+/**{
+	border:1px solid black;
+}*/
+
+body{
+	width: 100%vw;
+	height: 663px;
+	margin: 0 auto;
+}
+
+header {
+	height: 80px;
+	background-color: lightgray;
+	position: relative;
+}
+
+ .createUser div input {
+ 	border-radius: 4px;
+ }
+
+.createUser {
+	width: 250px;
+	height: 250px;
+	position: absolute;
+	top: 270px;
+	left: 900px;
+	border: 2.5px solid #2E86A3; 
+	border-radius: 7px;
+	z-index: 1;
+}
+
+.createUser h3 {
+	position: absolute;
+	top: 15px;
+	left: 62px;
+	margin: 0px;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+#usernameCreateUser{
+	position: absolute;
+	top: 80px;
+	left: 38px;
+}
+
+#passwordReenterUser {
+	position: absolute;
+	top: 140px;
+	left: 38px;
+}
+
+#passwordCreateUser{
+	position: absolute;
+	top: 110px;
+	left: 38px;
+}
+
+#selectorForm1{
+	position: absolute;
+	top: 170px;
+	left: 22px;
+}
+
+#selectorForm1 {
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+.btn {
+	position: absolute;
+	left: 80px;
+	top: 215px;
+	font-family: sans-serif;
+}
+
+.smalltopbanner {
+	height: 3px;
+	background-color: #2E86A3;
+}
+
+.companyname {
+width: 353.3px;
+position: absolute;
+top:18px;
+left: 25px;
+}
+
+.companyname span {
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #2E86A3;
+	font-size: 30pt;
+}
+
+.actionButtons {
+	width: 90%;
+	height: 65%;
+	position: relative;
+	top: 80px;
+	left: 50px;
+}
+
+.actionbtn {
+	width: 120px;
+	height: 120px;
+	position: relative;
+}
+
+.actionbtn:hover{
+ background: silver;
+}
+
+.spansForAction {
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 11pt;
+	position: absolute;
+	left: 15px;
+	top: 80px;
+}
+
+#action1 {
+	bottom: -110px;
+	left: 65px;
+}
+
+#action1 img {
+	position: absolute;
+	top: 9px;
+	left: 27px;
+}
+
+#action2 {
+	bottom: -148px;
+	left: 65px;
+}
+
+#action2 img {
+	position: absolute;
+	top: 9px;
+	left: 27px;
+}
+
+#action2 span {
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 11pt;
+	position: absolute;
+	left: 9.7px;
+	top: 80px;
+}
+
+#action3 {
+	bottom: 134px;
+	left: 235px;
+}
+
+#action3 img {
+	position: absolute;
+	top: 9px;
+	left: 27px;
+}
+
+#action4 {
+	bottom: 256px;
+	left: 575px;
+}
+
+#action4 img {
+	position: absolute;
+	top: 9px;
+	left: 27px;
+}
+
+#action5 {
+	bottom: 378px;
+	left: 405px;
+}
+
+#action5 img {
+	position: absolute;
+	top: 9px;
+	left: 27px;
+}
+
+#action6 {
+	bottom: 338px;
+	left: 235px;
+}
+
+#action6 img {
+	position: absolute;
+	top: 9px;
+	left: 27px;
+}
+
+#action6 span {
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 11pt;
+	position: absolute;
+	left: 8px;
+	top: 80px;
+}
+
+#action7 {
+	bottom: 458px;
+	left: 405px;
+}
+
+#action7 img {
+	position: absolute;
+	top: 9px;
+	left: 27px;
+}
+
+#action8 {
+	bottom: 580px;
+	left: 575px;
+}
+
+#action8 img {
+	position: absolute;
+	top: 9px;
+	left: 27px;
+}
