@@ -1,7 +1,7 @@
 /**{
 	border:1px solid black;
-}*/
-
+}
+*/
 body{
 	width: 100%vw;
 	height: 663px;
@@ -12,6 +12,38 @@ header {
 	height: 80px;
 	background-color: lightgray;
 	position: relative;
+}
+
+footer {
+	position: relative;
+	height: 36px;
+	top: 48px;
+	background: lightgray;
+}
+
+footer span {
+	position: relative;
+	left: 480px;
+	top: 11px;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+.subHeader{
+	height: 70px;
+	position: relative;
+	border: 1px solid darkred;
+	border-top: none;
+}
+
+.subHeader span {
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 20pt;
+	position: relative;
+	top: 20px;
+	left: 90px;
+	color: darkred;
 }
 
  .createUser div input {
@@ -97,7 +129,7 @@ left: 25px;
 	width: 90%;
 	height: 65%;
 	position: relative;
-	top: 80px;
+	top: 12px;
 	left: 50px;
 }
 
