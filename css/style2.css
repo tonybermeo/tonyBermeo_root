@@ -54,7 +54,7 @@ footer span {
 	width: 250px;
 	height: 250px;
 	position: absolute;
-	top: 270px;
+	top: 230px;
 	left: 900px;
 	border: 2.5px solid #2E86A3; 
 	border-radius: 7px;
@@ -126,7 +126,7 @@ left: 25px;
 }
 
 .actionButtons {
-	width: 90%;
+	width: 61%;
 	height: 65%;
 	position: relative;
 	top: 12px;
@@ -136,7 +136,8 @@ left: 25px;
 .actionbtn {
 	width: 120px;
 	height: 120px;
-	position: relative;
+	float: left;
+	margin: 40px;
 }
 
 .actionbtn:hover{
@@ -147,113 +148,16 @@ left: 25px;
 	font-family: sans-serif;
 	font-weight: bold;
 	font-size: 11pt;
-	position: absolute;
-	left: 15px;
-	top: 80px;
+	float: left;
+	position:relative;
+	top: 15px;
+	left: 10px;
 }
 
-#action1 {
-	bottom: -110px;
-	left: 65px;
+.actionbtn img {
+	float: left;
+	position: relative;
+	left: 26px;
+	top: 10px;
 }
 
-#action1 img {
-	position: absolute;
-	top: 9px;
-	left: 27px;
-}
-
-#action2 {
-	bottom: -148px;
-	left: 65px;
-}
-
-#action2 img {
-	position: absolute;
-	top: 9px;
-	left: 27px;
-}
-
-#action2 span {
-	font-family: sans-serif;
-	font-weight: bold;
-	font-size: 11pt;
-	position: absolute;
-	left: 9.7px;
-	top: 80px;
-}
-
-#action3 {
-	bottom: 134px;
-	left: 235px;
-}
-
-#action3 img {
-	position: absolute;
-	top: 9px;
-	left: 27px;
-}
-
-#action4 {
-	bottom: 256px;
-	left: 575px;
-}
-
-#action4 img {
-	position: absolute;
-	top: 9px;
-	left: 27px;
-}
-
-#action5 {
-	bottom: 378px;
-	left: 405px;
-}
-
-#action5 img {
-	position: absolute;
-	top: 9px;
-	left: 27px;
-}
-
-#action6 {
-	bottom: 338px;
-	left: 235px;
-}
-
-#action6 img {
-	position: absolute;
-	top: 9px;
-	left: 27px;
-}
-
-#action6 span {
-	font-family: sans-serif;
-	font-weight: bold;
-	font-size: 11pt;
-	position: absolute;
-	left: 8px;
-	top: 80px;
-}
-
-#action7 {
-	bottom: 458px;
-	left: 405px;
-}
-
-#action7 img {
-	position: absolute;
-	top: 9px;
-	left: 27px;
-}
-
-#action8 {
-	bottom: 580px;
-	left: 575px;
-}
-
-#action8 img {
-	position: absolute;
-	top: 9px;
-	left: 27px;
-}
