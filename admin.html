@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-	
-	<link rel="stylesheet" type="text/css" href="css/style2.css">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  	  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	      <link rel="stylesheet" type="text/css" href="css/style2.css">
+	      <script src="js/custom.js"></script>
 	<title>Admin</title>
 </head>
 <body>
 	<header>
 		<div class="smalltopbanner"></div>
-			<div class="companyname"><span>DataTrakr</span></div>
+			<div class="companyname"><span>SkunkWorx</span></div>
 	</header>
 		<div class="subHeader"><span>Admin Console</span></div>
 
@@ -32,15 +36,55 @@
 </div>
 
 <div class="actionButtons">
-	 <div class="actionbtn" id="action1">
+
+	 <div class="actionbtn" id="action1" class="btn btn-info btn-lg" data-toggle="modal" data-target="#addUser1">
 		<img src="images/user.png"/>
 		<span class="spansForAction">Manage User</span>
+
 	</div>
 
-	<div class="actionbtn" id="action2">
+		<!-- Modal -->
+<div id="addUser1" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Modal Header</h4>
+      </div>
+      <div class="modal-body">
+        <p>Some text in the modal.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+	<div class="actionbtn" id="action2" class="btn btn-info btn-lg" data-toggle="modal" data-target="#addUser2">
 		<img src="images/workflow.png"/>
 		<span class="spansForAction">Add Workflow</span>
 	</div>
+
+			<!-- Modal -->
+<div id="addUser2" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Modal Header</h4>
+      </div>
+      <div class="modal-body">
+        <p>Some text in the modal.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 	<div class="actionbtn" id="action3">
 		<img src="images/city.png">

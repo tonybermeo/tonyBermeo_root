@@ -64,7 +64,7 @@ footer span {
 .createUser h3 {
 	position: absolute;
 	top: 15px;
-	left: 62px;
+	left: 42px;
 	margin: 0px;
 	text-align: center;
 	font-family: sans-serif;
@@ -73,19 +73,19 @@ footer span {
 #usernameCreateUser{
 	position: absolute;
 	top: 80px;
-	left: 38px;
+	left: 15px;
 }
 
 #passwordReenterUser {
 	position: absolute;
 	top: 140px;
-	left: 38px;
+	left: 15px;
 }
 
 #passwordCreateUser{
 	position: absolute;
 	top: 110px;
-	left: 38px;
+	left: 15px;
 }
 
 #selectorForm1{
@@ -151,7 +151,7 @@ left: 25px;
 	float: left;
 	position:relative;
 	top: 15px;
-	left: 10px;
+	left: -4px;
 }
 
 .actionbtn img {
@@ -161,3 +161,22 @@ left: 25px;
 	top: 10px;
 }
 
+dialog {  
+    width: 500px;  
+    background:#e8e8e8;
+    border: 1px solid #dadada;
+    font-family:sans-serif;
+    padding: 5px 10px 20px 20px;
+}
+
+.modal-body .form-horizontal .col-sm-2,
+.modal-body .form-horizontal .col-sm-10 {
+    width: 100%
+}
+
+.modal-body .form-horizontal .control-label {
+    text-align: left;
+}
+.modal-body .form-horizontal .col-sm-offset-2 {
+    margin-left: 15px;
+}
