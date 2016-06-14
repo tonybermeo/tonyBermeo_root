@@ -54,7 +54,7 @@ footer span {
 	width: 250px;
 	height: 250px;
 	position: absolute;
-	top: 230px;
+	top: 45px;
 	left: 900px;
 	border: 2.5px solid #2E86A3; 
 	border-radius: 7px;
@@ -68,6 +68,11 @@ footer span {
 	margin: 0px;
 	text-align: center;
 	font-family: sans-serif;
+}
+
+.radio1 {
+	position: absolute;
+	top: 80px;
 }
 
 #usernameCreateUser{
