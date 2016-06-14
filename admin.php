@@ -1,12 +1,24 @@
+<?php
+  include("obj/dbConn.php");
+  //Prepare the SQL statement to get
+  //all records from database
+  $sql = "SELECT * FROM users ORDER BY ID DESC";
+  //Execute SQL command
+  $rec = $conn->query( $sql );
+  $num = $rec->num_rows;
+  ?>
+
+
 <!DOCTYPE html>
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" type="text/css" href="css/style2.css">
-        <script src="js/custom.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+  <link rel="stylesheet" type="text/css" href="css/style2.css">
+  <script src="js/custom.js"></script>
   <title>Admin</title>
 </head>
 <body>
@@ -47,13 +59,32 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Modal Header</h4>
+        <h4 class="modal-title">User Management</h4>
       </div>
-      <div class="modal-body">
-        <p>Some text in the modal.</p>
-      </div>
+
+   <div class="row">
+        <div class="col-md-12">
+              <ul id="taskList">
+      <?php
+for($i = 0; $i < $num; $i++){
+  $row = mysqli_fetch_array($rec);
+  echo "<li id='".$row['ID']."'>";
+  echo "<table class='tasksTable'><tr>";
+  echo "<td>";
+  echo $row['Username'];
+  echo "</td>";
+  echo "<td class='taskActions'>";
+  echo "<span class='fa fa-trash'></span>";
+  echo "</td>";
+  echo "</tr></table>";
+  echo "</li>";
+}
+?>
+              </ul>
+        </div>
+    </div>
+
       <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
       </div>
     </div>
   </div>

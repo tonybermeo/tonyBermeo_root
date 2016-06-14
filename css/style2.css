@@ -185,3 +185,38 @@ dialog {
 .modal-body .form-horizontal .col-sm-offset-2 {
     margin-left: 15px;
 }
+
+#taskList{
+	list-style: none;
+	padding : 0px;
+}
+
+#taskList li{
+	font-size 	: 12pt;
+	letter-spacing:2px;
+	padding 	: 1px;
+	border: 1px solid rgba(0, 0, 0, .5);
+}
+
+#taskList li:hover{
+	background 	: #2E86A3;
+	color 		: white;
+}
+
+.tasksTable{
+	width 		: 100%;
+	border: 1px solid rgba(0, 0, 0, .5);
+}
+
+.tasksTable td{
+	border: 1px solid rgba(0, 0, 0, .5);	
+}
+
+.taskActions{
+	text-align  : center;
+	width 		: 10%;
+}
+
+.taskActions span:hover{
+	cursor 		: pointer;
+}
